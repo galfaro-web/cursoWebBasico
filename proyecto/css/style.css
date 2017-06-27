@@ -1,0 +1,23 @@
+/*# identificador para asignarlo solo a la etiqueta asignada*/
+#caja4{
+	width: 900px;
+	height: 400px;
+	background-color: orange;
+}
+/*all print screen*/
+/*estilos para tablets*/
+@media only screen and (min-width: 768px) and (max-width: 940px){
+	#caja4{
+		width: 600px;
+		background-color: red;
+	}
+}
+
+/*estilo para smartphones*/
+@media only screen and (min-width: 400px) and (max-width: 767px){
+	#caja4{
+		width: 400px;
+		background-color: green;
+		border-spacing: none;
+	}
+}

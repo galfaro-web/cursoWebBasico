@@ -1,0 +1,94 @@
+body
+{
+	background: #FFFFFF;
+	margin: 0px;
+	font-family: "Impact", Georgia, Serif;
+}
+
+h1
+{
+	color: purple;
+	background-color: #FB824C;
+	font-family: "Impact", Georgia, Serif;
+}
+
+.titulo
+{
+	background-color: #FFFFFF;
+	font-family: "Arial", Georgia, Serif;
+	img{
+		height: 50%;
+		width: 50%;
+	}
+}
+
+h2{
+	font-size: 40px;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #0A0AC7;
+}
+
+a:hover{
+	color: white;
+}
+
+/*Clase menu-navegacion
+cualquier elemento que tenga esa clase va a afectar la etiqueta a*/
+.menu-navegacion {
+		text-align: center;
+}
+
+li{
+	display: inline;
+	font-size: 30px;
+}
+
+.consalto{
+	display: block;
+}
+
+.menu-navegacion a{
+	display: inline-block;
+	background: blue;
+	color: #fff;
+	width: :200px;
+	height: 15px;
+	font-size: 20px;
+	padding: 10px;
+	margin: 0px 10px 10px 0px;
+}
+
+.contenido{
+	padding:  10px;
+}
+li:hover a{
+	background: red;
+}
+
+li.activo a{
+	background-color: green;
+}
+
+h1{
+	text-align: center;
+	padding: 30px; /*padding: 10px es lo mismo que padding: 0px 10px 0px 0px;*/
+	margin: 0px;
+}
+
+.footer{
+	background: #FB824C;
+	padding: 10px;
+	font-family: "Impact", Georgia, Serif;
+}
+
+.justificar{
+	text-align: justify;
+}
+

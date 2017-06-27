@@ -1,0 +1,30 @@
+.divHijo{
+	background: #ff8000;
+	/*width: 400px;*/
+	padding: 30px;
+	border: 10px solid #000;
+	/*margin: 200px 350px;*/
+	/*position: static; por defecto*/
+	/*position: absolute; /*inicio es la parte superior izquierda*/
+	/*top: 50px;
+	right: 200px;
+	position: fixed; /*posición fija*/
+	position: relative;
+	top: 20px;
+	right: 20px;
+
+}
+/*Inicio relativo al contenedor padre*/
+.divPadre{
+	background: #ff8000;
+	padding: 30px;
+	border: 10px solid #000;
+
+	background: blue;
+
+	position: absolute;
+
+	top: 20px;
+	right: 20px;
+
+}

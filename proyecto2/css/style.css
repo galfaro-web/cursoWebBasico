@@ -1,0 +1,30 @@
+p{
+	width: 80px;
+	text-align: justify;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 2000px){
+	body{
+		background-color: #F8B3F6;
+	}
+}
+
+@media  and (min-width: 600px) and (max-width: 992px) {
+	body{
+		background-color: #2CC2E8;
+	}
+}
+
+@media  and (min-width: 400px) and (max-width: 600px) {
+	body{
+		background-color: #FB9A53;
+		color: white;
+	}
+}
+
+@media  and (min-width: 0px) and (max-width: 400px) {
+	body{
+		background-color: #2CE854;
+		color: #fff;
+	}
+}

@@ -1,0 +1,106 @@
+body
+{
+	/*background: gray;
+	background: #000000;  negro
+	background: #ffffff;  blanco*/
+	background: #FFFFFF;
+	margin: 0px;
+}
+
+h1
+{
+	color: #fff;
+	background-color: black;
+}
+
+.titulo
+{
+	background-color: #FFFFFF;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	/*color: rgb(0,0,0);*/
+	color: #FFFFFF;
+	/*color: rgba(1,0,0,0);*/
+}
+
+a:hover{
+	color: white;
+}
+
+/*Clase menu-navegacion
+cualquier elemento que tenga esa clase va a afectar la etiqueta a*/
+.menu-navegacion {
+	/*background-color: yellow;*/
+	text-align: center;
+}
+
+li{
+	display: inline;
+}
+
+.consalto{
+	display: block;
+}
+
+.menu-navegacion a{
+	display: inline-block;
+	background: black;
+	color: #fff;
+	width: :200px;
+	height: 15px;
+	font-size: 20px;
+	padding: 10px;
+	margin: 0px 10px 0px 0px;
+}
+
+li:hover a{
+	background: #FFD6F4;
+}
+
+li.activo a{
+	background-color: #ccc;
+}
+
+h1{
+	text-align: center;
+	padding: 30px; /*padding: 10px es lo mismo que padding: 0px 10px 0px 0px;*/
+	margin: 0px;
+}
+
+.informacion-personal{
+	border:1px solid #ccc;
+	width: 30%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+
+}
+
+.footer{
+	background: gray;
+	padding: 20px;
+}
+
+img{
+	height: 100px;
+	width: 100px;
+}
+
+.justificar{
+	text-align: justify;
+}
+
+table, th, td{
+	border: 1px solid black;
+	/*border-collapse: collapse;  Para quitar el borde doble*/
+}
+
+th, td{
+	padding: 20px;
+}
